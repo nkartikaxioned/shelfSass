@@ -1,2 +1,14 @@
 .caps { @include textTransform($transform: capitalize); }
 .heading::first-letter { @include textTransform($transform: capitalize); }
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.wrapper { 
+    width: 86%;
+    margin: 0 auto;
+}
+
+li { list-style-type: none; }

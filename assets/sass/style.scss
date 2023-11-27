@@ -1,0 +1,12 @@
+//mixin import
+@import "default/mixins";
+@import "default/variable";
+@import "default/reset";
+@import "default/global";
+
+//sections import
+@import "_header.scss";
+@import "_bannerSection.scss";
+@import "_bookstoreSection.scss";
+@import "_helpSection.scss";
+@import "_footer.scss";
